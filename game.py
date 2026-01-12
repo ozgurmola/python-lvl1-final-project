@@ -6,8 +6,8 @@ import random
 #screen.draw.text(str(number))
 
 TITLE="SELAM"
-WIDTH = 1000
-HEIGHT= 1000
+WIDTH = 500
+HEIGHT= 500
 FPS=30
 
 hero = Actor ("hero") 
