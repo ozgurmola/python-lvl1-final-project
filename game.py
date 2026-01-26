@@ -53,7 +53,7 @@ def create_giants():
 def create_boss():
     bosses.clear()
     b = Actor("final_boss", (WIDTH//2, HEIGHT//2))
-    b.health = 90
+    b.health = 80
     b.attack = 15
     bosses.append(b)
 
@@ -196,6 +196,7 @@ def draw():
     screen.draw.text(f"SEVİYE: {level}", (20,100), color="white", fontsize=36)
 
 pgzrun.go()
+
 
 
 
